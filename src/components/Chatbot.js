@@ -5,7 +5,7 @@ import chaticon from "../images/headset_mic.svg";
 import { addChatMessage } from "../redux/chatActions";
 
 function Chatbot() {
-  const API_KEY = "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";
+  const API_KEY = "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";
   const dispatch = useDispatch();
 
   const chatHistory = useSelector((state) => state.chat.chatHistory);
